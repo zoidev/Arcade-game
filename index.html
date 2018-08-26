@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id='container'>
+		<div class='panel'>
+			<div id='score-box'></div>
+			<div id='lives-box'></div>		
+		</div>
+		<!--modal from www.w3schools.com-->
+        <div class="modal-content" id="modalWinner">
+      	<!-- Modal content -->
+	        <div class="modal-header">
+	          <h2>You Won!</h2>
+	        </div>
+	        <div class="modal-body">
+	          <p>Congratulations!
+	          <img id='win_emoji'src="images/kiss.png" alt="">
+		      <img id='win_emoji'src="images/kiss.png" alt="">
+		      <img id='win_emoji'src="images/kiss.png" alt="">
+		  	  </p>
+	          <button id="playAgainWin">Play Again</button>
+	        </div>
+	        <div class="modal-footer">
+	          <p class="credit"> Created for Udacity FEND Nanodegree</p>
+	        </div>
+      	</div>	
+      	<!--modal from www.w3schools.com-->
+        <div class="modal-content" id="modalLoser">
+      	<!-- Modal content -->
+	        <div class="modal-header">
+	         <h2>Game Over</h2>
+	        </div>
+	        <div class="modal-body">          
+	          <p>You must try harder
+	          <img id='fail_emoji'src="images/disappointed.png" alt="">
+		      <img id='fail_emoji'src="images/disappointed.png" alt="">
+		      <img id='fail_emoji'src="images/disappointed.png" alt="">
+		      </p>
+	          <button id="playAgain">Play Again</button>
+	        </div>
+      	</div>	
+	</div>
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>

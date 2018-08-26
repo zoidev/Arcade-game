@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+}
+p {
+	font-family: 'Amatic SC', cursive;
+}
+.panel{
+	display: flex;
+	flex-wrap: wrap;
+}
+#score-box {
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	width: 100%;
+    text-align: center;
+}
+#lives-box{
+	width: 100%;
+}
+/* Modal Header */
+.modal-header {
+	font-family: 'Amatic SC', cursive;
+    padding: 2px 16px;
+    background-color: #4775d1;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;
+font-size: 30px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #4775d1;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    display: none;
+    position: fixed;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 50%;
+   	height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);   
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -100px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+#playAgainWin {
+	border-radius: 10px;
+	width: 60%;
+	height: 50px;
+	font-size: 15px;
+	position: inherit;
+	background-color: #e6f2ff;
+}
+#playAgain {
+	border-radius: 10px;
+	width: 60%;
+	height: 50px;
+	font-size: 15px;
+	background-color: #e6f2ff;
+}
+.fa-heart{
+	font-size: 35px;
+	color: #e60000;
+}
