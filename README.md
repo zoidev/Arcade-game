@@ -1,8 +1,9 @@
 # Arcade Game
-In this game there are a Player and the Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once the player collides with an enemy, the player moves back to the start square and when the collisions equals to 3 the game is over. Each time the player reaches the water the score increases by 100, and the win condition is the 1000 points.
+In this game there are a Player and the Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once the player collides with an enemy, the player moves back to the start square and when the collisions are equal to 3 the game is over. Each time the player reaches the water the score increases by 100, and the win condition is the 1000 points.
 
 Udacity provided the vizual assets and a game loop engine and I added the rest functionality. 
-
+## Live Demo 
+https://zoidev.github.io/Arcade-game/
 ## Installing
 - Clone the repository or download the zip folder of the project 
 - Open the file ```index.html``` in your browser (Chrome is recommended)
